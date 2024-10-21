@@ -280,11 +280,11 @@
 
                 if (data.data && data.data.play) {
                     downloadArea.innerHTML = `
-                        <p>Vídeo disponível para download:</p>
+                        <p>Video disponivel para download:</p>
                         <a href="${data.data.play}" class="btn"><i class="ri-download-line"></i> Clique aqui para baixar</a>
                     `;
                 } else {
-                    downloadArea.innerHTML = "<p style='color: red;'>Não foi possível encontrar o vídeo. Tente novamente.</p>";
+                    downloadArea.innerHTML = "<p style='color: red;'>nao foi possivel achar o video, Tente novamente.</p>";
                     videoDetails.innerHTML = ""; 
                 }
             } catch (error) {
